@@ -8,43 +8,43 @@
 const listPosts = [
     {
         nomeAutore: 'Phil Magione',
-        fotoProfilo: 'https://unsplash.it/300/300?image=15',
+        fotoProfilo: 'https://picsum.photos/seed/{seed}/300/300',
         data: '4 mesi fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio     minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil     ullam aut alias.',
-        immagine:'https://unsplash.it/600/300?image=171',
+        immagine:'https://picsum.photos/seed/{seed}/600/300',
         numeroDiLike: 80,
     },
     {
-        nomeAutore: 'Phil Magione',
-        fotoProfilo: 'https://unsplash.it/300/300?image=15',
-        data: '4 mesi fa',
+        nomeAutore: 'Walter White',
+        fotoProfilo: 'https://picsum.photos/seed/{seed}/300/300',
+        data: '8 mesi fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        immagine:'https://unsplash.it/600/300?image=171',
-        numeroDiLike: 80,
+        immagine:'https://picsum.photos/seed/{seed}/600/300',
+        numeroDiLike: 77,
     },
     {
-        nomeAutore: 'Phil Magione',
-        fotoProfilo: 'https://unsplash.it/300/300?image=15',
-        data: '4 mesi fa',
+        nomeAutore: 'Jessie Pinkman',
+        fotoProfilo: 'https://picsum.photos/seed/{seed}300/300',
+        data: '1 mese fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        immagine:'https://unsplash.it/600/300?image=171',
-        numeroDiLike: 80,
+        immagine:'https://picsum.photos/seed/{seed}/600/300',
+        numeroDiLike: 24,
     },
     {
-        nomeAutore: 'Phil Magione',
-        fotoProfilo: 'https://unsplash.it/300/300?image=15',
-        data: '4 mesi fa',
+        nomeAutore: 'Tommy Shelby',
+        fotoProfilo: 'https://picsum.photos/seed/{seed}/300/300',
+        data: '10 mesi fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        immagine:'https://unsplash.it/600/300?image=171',
-        numeroDiLike: 80,
+        immagine:'https://picsum.photos/seed/{seed}/600/300',
+        numeroDiLike: 227,
     },
     {
-        nomeAutore: 'Phil Magione',
-        fotoProfilo: 'https://unsplash.it/300/300?image=15',
-        data: '4 mesi fa',
+        nomeAutore: 'Jax Teller',
+        fotoProfilo: 'https://picsum.photos/seed/{seed}300/300',
+        data: '7 ore fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        immagine:'https://unsplash.it/600/300?image=171',
-        numeroDiLike: 80,
+        immagine:'https://picsum.photos/seed/{seed}/600/300',
+        numeroDiLike: 510,
 }]
 
 // Ref post contaiener
@@ -74,7 +74,7 @@ function genPosts (array, container) {
                 </div>
                 <div class="post-meta__data">
                     <div class="post-meta__author">${card.nomeAutore}</div>
-                    <div class="post-meta__time">4 mesi fa</div>
+                    <div class="post-meta__time">${card.data}</div>
                 </div>             
             </div>
         </div>
