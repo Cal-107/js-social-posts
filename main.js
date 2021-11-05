@@ -8,42 +8,42 @@
 const listPosts = [
     {
         nomeAutore: 'Phil Magione',
-        fotoProfilo: 'https://picsum.photos/seed/{seed}/300/300',
+        fotoProfilo: 'https://picsum.photos/id/1/300/300',
         data: '4 mesi fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio     minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil     ullam aut alias.',
-        immagine:'https://picsum.photos/seed/{seed}/600/300',
+        immagine:'https://picsum.photos/id/11/600/300',
         numeroDiLike: 80,
     },
     {
         nomeAutore: 'Walter White',
-        fotoProfilo: 'https://picsum.photos/seed/{seed}/300/300',
+        fotoProfilo: 'https://picsum.photos/id/2/300/300',
         data: '8 mesi fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        immagine:'https://picsum.photos/seed/{seed}/600/300',
+        immagine:'https://picsum.photos/id/10/600/300',
         numeroDiLike: 77,
     },
     {
         nomeAutore: 'Jessie Pinkman',
-        fotoProfilo: 'https://picsum.photos/seed/{seed}300/300',
+        fotoProfilo: 'https://picsum.photos/id/3/300/300',
         data: '1 mese fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        immagine:'https://picsum.photos/seed/{seed}/600/300',
+        immagine:'https://picsum.photos/id/9/600/300',
         numeroDiLike: 24,
     },
     {
         nomeAutore: 'Tommy Shelby',
-        fotoProfilo: 'https://picsum.photos/seed/{seed}/300/300',
+        fotoProfilo: 'https://picsum.photos/id/4/300/300',
         data: '10 mesi fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        immagine:'https://picsum.photos/seed/{seed}/600/300',
+        immagine:'https://picsum.photos/id/8/600/300',
         numeroDiLike: 227,
     },
     {
         nomeAutore: 'Jax Teller',
-        fotoProfilo: 'https://picsum.photos/seed/{seed}300/300',
+        fotoProfilo: 'https://picsum.photos/id/5/300/300',
         data: '7 ore fa',
         testoDelPost: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.',
-        immagine:'https://picsum.photos/seed/{seed}/600/300',
+        immagine:'https://picsum.photos/id/7/600/300',
         numeroDiLike: 510,
 }]
 
@@ -52,8 +52,6 @@ const postsContainer = document.getElementById('container');
 
 // Creo i post con richiamo della funzione
 genPosts(listPosts, postsContainer);
-    
-
 
 
 /*
