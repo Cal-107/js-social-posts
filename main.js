@@ -63,9 +63,10 @@ genPosts(listPosts, postsContainer);
  * Function
  */
 
+// Con ciclo 'for/in'
 function genPosts (array, container) {
-    for (let i = 0; i < array.length; i++) {
-        const card = array[i];
+    for (let key in array) {
+        const card = array[key];
         container.innerHTML += `<div class="post">
         <div class="post__header">
             <div class="post-meta">                    
