@@ -49,13 +49,10 @@ const listPosts = [
 
 // Ref post contaiener
 const postsContainer = document.getElementById('container');
-console.log(postsContainer);
 
 // Creo i post con richiamo della funzione
 genPosts(listPosts, postsContainer);
     
-
-
 
 
 
